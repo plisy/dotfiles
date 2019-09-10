@@ -113,3 +113,5 @@ alias gl="git log --pretty=oneline"
 
 source ~/.locals
 source ~/.cargo/env
+
+autoload -U compinit && compinit
