@@ -23,5 +23,6 @@ cd $HOME
 echo "Linking config files"
 ln -sf $DOTFILES/_zshrc .zshrc
 ln -sf $DOTFILES/_vimrc .vimrc
+ln -sf $DOTFILES/_cloudenv-settings.json .cloudenv-settings.json
 
 cd $DOTFILES

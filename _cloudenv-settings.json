@@ -1,0 +1,6 @@
+{
+    "isInternal": true,
+    "experimentalFeatures": {
+        "authenticationRefactor": true
+    }
+}
