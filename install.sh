@@ -18,8 +18,7 @@ echo "Setting npm prefix to $HOME/.npm-global"
 npm config set prefix '~/.npm-global'
 
 echo "Setting up git preferences"
-git config --global push.default current
-git config --global format.pretty oneline
+sh $DOTFILES/configure-git.sh
 
 # Go and override any .zshrc with my own!
 cd $HOME
