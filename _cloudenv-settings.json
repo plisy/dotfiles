@@ -1,5 +1,6 @@
 {
     "isInternal": true,
+    "containerName": "cloudenv-dev",
     "experimentalFeatures": {
         "authenticationRefactor": true
     }
