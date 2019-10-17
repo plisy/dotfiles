@@ -2,6 +2,8 @@
 
 DOTFILES="$(pwd)"
 
+echo "Conext: DOTFILES=${DOTFILES}"
+
 # Create locals override file so my .zshrc doesn't complain
 touch ~/.locals
 
