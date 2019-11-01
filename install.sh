@@ -1,6 +1,6 @@
-#!/bin/sh
+#! /bin/sh
 
-DOTFILES="$(pwd)"
+DOTFILES="$( cd "$(dirname "$0")" ; pwd -P )"
 
 echo "Conext: DOTFILES=${DOTFILES}"
 
