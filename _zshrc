@@ -70,7 +70,6 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   git-flow
-  go
   rustup
   docker
   kubectl
@@ -117,3 +116,4 @@ source ~/.locals
 source ~/.cargo/env
 
 autoload -U compinit && compinit
+
