@@ -1,0 +1,1 @@
+alias src="vim ~/.zshrc"
