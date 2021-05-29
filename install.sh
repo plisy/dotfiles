@@ -4,8 +4,9 @@ DOTFILES="$( cd "$(dirname "$0")" ; pwd -P )"
 
 echo "Context: DOTFILES=${DOTFILES}"
 
-# # Create locals override file so my .zshrc doesn't complain
-# touch ~/.locals
+if [ "$(uname 2> /dev/null)" != "Linux" ]; then
+   brew bundle
+fi
 
 sh $DOTFILES/install-zsh.sh
 
@@ -18,7 +19,3 @@ sh $DOTFILES/configure-git.sh
 # echo "Linking config files"
 ln -sf $DOTFILES/_zshrc.d $HOME/.zshrc.d
 ln -sf $DOTFILES/_zshrc $HOME/.zshrc
-
-if [ "$(uname 2> /dev/null)" != "Linux" ]; then
-   brew bundle
-fi
