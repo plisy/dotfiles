@@ -1,2 +1,3 @@
 # mkdir & cd in zsh speak
-alias md = "take"
+
+alias md="take"

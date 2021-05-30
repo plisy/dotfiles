@@ -1,1 +1,1 @@
-alias src="vim ~/.zshrc"
+alias src="source $HOME/.zshrc"
