@@ -1,6 +1,7 @@
 tap "homebrew/cask-fonts"
 
 brew "exa"
+brew "bat"
 brew "fd"
 brew "wget"
 brew "git"
