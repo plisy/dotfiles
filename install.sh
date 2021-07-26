@@ -16,6 +16,6 @@ sh $DOTFILES/configure-git.sh
 # # Go and override any .zshrc with my own!
 # cd $HOME
 
-# echo "Linking config files"
+echo "Linking config files"
 ln -sf $DOTFILES/_zshrc.d $HOME/.zshrc.d
 ln -sf $DOTFILES/_zshrc $HOME/.zshrc

@@ -14,7 +14,7 @@ if [[ -z "${ZSH}" ]]; then
 fi
 
 # Common theme
-curl https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme --output $ZSH_CUSTOM/themes/common.zsh-theme --silent
+curl https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme --output ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/common.zsh-theme --silent
 
 # Autosuggestions
 if [ -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]; then
